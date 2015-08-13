@@ -70,7 +70,7 @@ end_time_dfs = time.time()
 total_dfs_time =  end_time_dfs - start_time_dfs
 print "and it takes: ",total_dfs_time
 '''
-Calculation for which Algorithm is faster
+Calculation for which Algorithm is faster based on their executing time
 '''
 if ((total_bfs_time - total_dfs_time) > 0):
 	print "DFS is faster than BFS"
